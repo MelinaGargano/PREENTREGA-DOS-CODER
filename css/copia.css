@@ -15,6 +15,12 @@ body{
     background-color: beige;
 }
 
+/*HEADER*/  
+/*
+.container-fluid{
+    background-color: bisque;
+}*/
+
 .container-fluid{
     margin: 0px;
     padding: 5px;
@@ -105,8 +111,7 @@ justify-content: right;
     margin: 50px;
     display: flex;
     justify-content: center;
-   
-    }
+
     .img-diseñadora{
         
         display: flex;
@@ -116,6 +121,8 @@ justify-content: right;
         border-radius: 5px;
         margin: 20px;        
     }
+    }
+
 
 .perfil-uno p{
     display: flex;
@@ -133,8 +140,6 @@ justify-content: right;
     margin: 50px;
     display: flex;
     justify-content: center;
-    
-    }
 
     .img-maestro{
         display: flex;
@@ -143,7 +148,8 @@ justify-content: right;
         padding: 10px;
         border-radius: 5px;
         margin: 20px;        
-    }    
+    }
+    }
 
 
 .perfil-dos p{
@@ -162,8 +168,6 @@ justify-content: right;
     margin: 50px;
     display: flex;
     justify-content: center;
-    
-    }
 
     .img-arquitecto{
         display: flex;
@@ -172,7 +176,8 @@ justify-content: right;
         padding: 10px;
         border-radius: 5px;
         margin: 20px;        
-    }    
+    }
+    }
 
 
 .perfil-tres p{
@@ -477,5 +482,3 @@ main img{
  
 
 /*FOOTER*/
-
-
