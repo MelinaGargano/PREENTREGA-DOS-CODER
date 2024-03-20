@@ -240,6 +240,33 @@ justify-content: right;
     margin: 0;
 }
 
+.card-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.card-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+.card-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 25px;
+}
+
 /*portfolio*/
 
 .galeria {
