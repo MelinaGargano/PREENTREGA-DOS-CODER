@@ -6,19 +6,23 @@
 }
 
 @font-face {
-  font-family: 'AestheticR';
-  src: url("../fuentes/AestheticRomance.ttf;");
+  font-family: Aesthetic;
+  src: url("../fuentes/AestheticRomance.ttf");
 }
 
 /*BODY*/
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'AestheticR';
+  font-family: AestheticR;
 }
 
 body {
   background-color: beige;
+}
+
+h1, h2 {
+  font-family: Aesthetic;
 }
 
 .container-fluid {
@@ -28,10 +32,6 @@ body {
 
 .navbar-toggler {
   width: min-content;
-}
-
-.bg-body-tertiary {
-  background-color: none !important;
 }
 
 header {
