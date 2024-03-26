@@ -269,31 +269,113 @@ header ul {
   margin: 0;
 }
 
+/*card one*/
 .card-one {
+  padding: 25px;
+  margin: 50px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+
+.img-comedor {
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  margin: 25px;
+  border-radius: 5px;
+  margin: 20px;
 }
 
+.card-one p {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  color: black;
+  background-color: aliceblue;
+}
+
+/*card two*/
 .card-two {
+  padding: 25px;
+  margin: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row-reverse;
   justify-content: center;
-  padding: 10px;
-  margin: 25px;
 }
 
-.card-three {
+.img-steel {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  margin: 25px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.card-two p {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  color: black;
+  background-color: aliceblue;
+}
+
+/*card three*/
+.card-three {
+  padding: 25px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-planos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.card-three p {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  color: black;
+  background-color: aliceblue;
+}
+
+.card-one p, .card-three p{
+  text-align: start;
+  align-items: center;
+  padding: 0 35px;
+  font-size: 20px;
+}
+
+.card-two p {
+  text-align: end;
+  align-items: center;
+  padding: 0 35px;
+  font-size: 20px;
+}
+
+/* Mobile Perfiles*/
+@media screen and (max-width: 925px) {
+  .card-one, .card-two, .card-three{
+    flex-direction: column;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .card-one, .card-two, .card-three p{
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+  }
 }
 
 /*portfolio*/
